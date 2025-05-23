@@ -1,0 +1,696 @@
+/* 
+Theme Name: Synergy Custom Theme
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Custom theme for Synergy Health, built with Hello Elementor child theme by Strategy Collective.
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: synergy-theme
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+.elementor-element.e-con-boxed.e-parent {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elementor-heading-title .green {
+    color: var(--e-global-color-primary);    
+}
+
+.elementor-heading-title .blue {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-heading-title .dark-gray {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-element.max-width-92 {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elementor-element.relative {
+    position: relative;
+}
+
+.elementor-element.full-width-btn .elementor-button {
+    display: block;
+}
+
+.elementor-element.full-width-btn .elementor-button .elementor-button-text {
+    flex-grow: 0;
+}
+
+.elementor-heading-title a {
+    font-family: inherit;
+    text-decoration: inherit;
+}
+
+.elementor-heading-title a:hover {
+    text-decoration: underline;
+}
+
+.elementor-widget-text-editor ul {
+    padding-left: 16px;
+}
+
+.elementor-widget-text-editor li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.elementor-element.elementor-motion-effects-element {
+    transition: drop-shadow 0.4s ease-in-out;
+}
+
+.blog-sidebar-main li {
+    list-style-type: none;
+}
+
+.blog-sidebar-main .wp-block-heading {
+    margin-bottom: 10px;
+}
+
+.blog-sidebar-main li.widget_categories {
+    list-style-type: none;
+    font-family: 'Be Vietnam', 'Arial', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: capitalize;
+    
+}
+
+.blog-sidebar-main .widget_categories {
+    margin-bottom: 40px;
+}
+
+.blog-sidebar-main .widget_categories .wp-block-categories li {
+    list-style-type: disc;
+    line-height: 26px;
+}
+
+.blog-sidebar-main .wp-block-latest-posts li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+} 
+
+.blog-sidebar-main .wp-block-latest-posts li a {
+    color: var(--e-global-color-primary);
+}
+
+.blog-sidebar-main .wp-block-latest-posts li time {
+    color: #1C2B39;
+    font-size: 16px;
+}
+
+.blog-sidebar-main .wp-block-latest-posts li a:hover,
+.blog-sidebar-main .wp-block-latest-posts li a:focus {
+    color: #1E685B;
+}
+
+.elementor-element.elementor-motion-effects-element.elementor-sticky--effects:not(.lp-header) {
+    box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.1);
+}
+
+.elementor-element.lp-footer .elementor-widget-text-editor a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:840px) {
+    .elementor-element.lp-footer-contact .elementor-icon-list-items {
+        flex-direction: column;
+    }
+    
+    .elementor-element.lp-footer-contact li {
+        padding-bottom: 32px;    
+    }
+}
+
+.elementor-element .e-con-inner ul li::marker,
+.elementor-element .e-con-inner .elementor-widget-text-editor ul li::marker,
+.elementor-widget-text-editor li::marker {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-element.one-column-container .e-con-inner .elementor-widget-text-editor {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.elementor-element.elementor-widget-button.arrow-down-btn svg {
+    width: 12px;
+}
+
+.zocdoc-button.elementor-element.elementor-widget-button svg {
+    width: 80px;
+    height: 30px;
+}
+
+.elementor-element.infographic-container {
+    max-width: 92%;
+}
+
+.elementor-element.three-column-stats {
+    max-width: 92%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.elementor-element.three-column-stats .elementor-element.statistic span {
+    font-size: 22px;
+}
+
+.elementor-element.two-column-appointment-cta {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========================================= */
+/*              Forms                        */
+/* ========================================= */
+.elementor-field-type-submit {
+    margin-top: 40px;
+}
+
+.elementor-date-field,
+.elementor-date-field #picker {
+    filter: invert(0.5) brightness(2.0);
+}
+
+.elementor-mark-required .elementor-field-label::after,
+.elementor-mark-required .elementor-field-label:after {
+    color: #ffffff;
+}
+
+.elementor-field-type-checkbox .elementor-field-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 6px;
+}
+
+input[type='checkbox'] {
+    width: 24px;
+    height: 24px;
+    border-width: 1px;
+    border-color: #ffffff;
+    outline: 0;
+    outline-color: transparent;
+    box-shadow: none;
+}
+
+
+.hero-swoosh img,
+.swoosh-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top center;   
+}
+
+
+/* ======================================== */
+/*      Main navigation styles              */
+/* ======================================== */
+
+.premium-sub-menu {
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+.premium-ver-inner-container .mega-menu-bg {
+    position: absolute;
+    top: 56px;
+    left: -12px;
+    width: 100%;
+    height:0;
+    background-color: #fafafa;
+    border: solid 8px #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.8s ease-in-out;
+    opacity: 0;
+}
+
+.premium-nav-menu-container #menu-header-menu .premium-nav-menu-item .premium-sub-menu {
+    margin-top: 10px;
+}
+
+.premium-nav-menu-container #menu-header-menu .premium-nav-menu-item .premium-sub-menu .premium-sub-menu {
+    margin-top: 0;
+}
+
+.elementor-element #menu-header-menu-1.premium-main-nav-menu .premium-sub-menu .premium-sub-menu-link,
+.elementor-element #menu-header-menu.premium-main-nav-menu .premium-sub-menu .premium-sub-menu-link {
+    text-decoration: none;
+}s
+
+.elementor-element #menu-header-menu.premium-main-nav-menu .premium-sub-menu .premium-sub-menu-link {
+    min-height: 40px;
+}
+
+
+@media screen and (max-width:1400px) {
+    .elementor-element #menu-header-menu.premium-main-nav-menu .premium-menu-link {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    
+    .elementor-53 .elementor-element.elementor-element-0954ae1.premium-nav-hor .premium-nav-menu-item.menu-item-has-children#premium-nav-menu-item-1985 .premium-sub-menu {
+        left: -140px;
+    }
+}
+
+@media screen and (min-width:1148px) {
+	.elementor-element #menu-header-menu.premium-main-nav-menu .premium-sub-menu .premium-sub-menu-link {
+		min-width: 180px;
+	}
+}
+
+/* ========================================= */
+/*          Accordions                       */
+/* ========================================= */
+.elementor-element.elementor-widget-accordion .elementor-accordion-item {
+    border-left: 0;
+    border-right: 0;
+}
+
+/* ========================================= */
+/*             Tab Containers                */
+/* ========================================= */
+.elementor-widget-tabs .elementor-tabs {
+    border: 0;
+}
+
+.elementor-element .elementor-tabs-wrapper {
+    display: flex;
+}
+
+.elementor-element.elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 8px 8px 0 0;
+    margin-right: 12px;
+    padding: 20px 25px;
+    transition: all 0.4s ease-out;
+}
+
+.elementor-element.elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title.hover,
+.elementor-element.elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title.hover {
+    background-color: var(--e-global-color-secondary);
+    color: #ffffff;
+}
+
+.elementor-element .elementor-tabs-wrapper .elementor-tab-title.elementor-active {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-title.elementor-active:before {
+    content:unset;
+    border: 0;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-title.elementor-active:after,
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-title.elementor-active::after {
+    border: 0;
+}
+
+.elementor-element.elementor-widget-tabs .elementor-tabs .elementor-tabs-content-wrapper {
+    border: 0;
+    border-color: transparent;
+    outline: 0;
+}
+
+.elementor-widget-tabs.elementor-element .elementor-tabs .elementor-tab-content {
+    background-color: #ffffff;
+    border: 0;
+    outline: 0;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+    padding-bottom: 32px;
+}
+
+
+.elementor-widget-tabs.elementor-element .elementor-tabs .elementor-tab-content ul li::marker,
+.elementor-widget-tabs.elementor-element .elementor-tabs .elementor-tab-content ul li:marker {
+    color: var(--e-global-color-primary);
+}
+
+/* ========================================= */
+/*              Logo Carousel                */
+/* ========================================= */
+
+#synergy-logo-carousel .swiper-slide {
+    background: url(assets/images/logo-bg.svg) no-repeat center center;
+    background-size: contain;
+}
+
+#synergy-logo-carousel .swiper-slide .swiper-slide-inner {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 200px;
+}
+
+#synergy-logo-carousel .swiper-slide .swiper-slide-inner img {
+    max-width:60%;
+}
+
+#synergy-logo-carousel.elementor-element .swiper .elementor-swiper-button {
+    background-color: var(--e-global-color-primary);
+    color: var(--e-global-color-3eaa309);
+    border-radius: 4px;
+    padding: 14px;
+    z-index:0;
+}
+
+#synergy-logo-carousel.elementor-element .swiper .elementor-swiper-button-prev {
+    top:-66px;
+    left:auto;
+    right: calc( 18% + 62px );
+    z-index: 0;
+}
+
+#synergy-logo-carousel.elementor-element .swiper .elementor-swiper-button-next {
+    top: -66px;
+    left:auto;
+    right: 18%;
+    z-index: 0;
+}
+
+/* ================================================ */
+/*          Team Member Carousel                    */
+/* ================================================ */
+
+
+.elementor-element#team-member-carousel a.carousel-arrow {
+    top: auto;
+    bottom: -86px;
+    left: auto;
+    right: 40px;
+}
+
+.elementor-element#location-team-carousel a.carousel-arrow {
+    top: auto;
+    bottom: -68px;
+    padding: 21px;
+}
+
+
+.elementor-element#team-member-carousel a.carousel-arrow.carousel-prev {
+    left: auto;
+    right: 100px;
+}
+
+.elementor-element#location-team-carousel a.carousel-arrow.carousel-prev {
+    left: 38px;
+}
+
+.elementor-element#location-team-carousel a.carousel-arrow.carousel-next {
+    left: 98px;
+}
+
+.elementor-element#location-team-carousel .premium-carousel-wrapper .slick-arrow.carousel-arrow:hover,
+#team-member-carousel.elementor-element .premium-carousel-wrapper .slick-arrow.carousel-arrow:hover {
+    background-color: var(--e-global-color-cf12430);
+}
+
+.elementor-element#location-team-carousel a.carousel-arrow svg {
+    min-width: 12px;
+}
+
+
+@media screen and (min-width:1024px) {
+    .elementor-element#team-member-carousel .premium-carousel-template {
+        max-width: 32%;
+    }
+    
+    .elementor-element#team-member-carousel .premium-carousel-template .e-con-full {
+        max-width: 96%;
+    }
+    
+    .elementor-element#location-team-carousel .premium-carousel-template .e-con-full {
+        max-width: 96%;
+    }
+	
+	.swoosh-container,
+	.hero-swoosh-container {
+		min-width:105vw;
+		margin-left:-2.5vw;
+		margin-right:-2.5vw;
+	}
+	
+}
+
+
+/* ================================================ */
+/*      Patient Review Slider--HealthGrades         */
+/* ================================================ */
+.elementor-element#review-slider a.carousel-arrow {
+    top: -40px;
+    right: auto;
+    left: calc(50% + 15px);
+    padding: 21px;
+}
+
+.elementor-element#review-slider a.carousel-arrow.carousel-prev {
+    left: calc( 50% - 60px);
+}
+
+.elementor-element#review-slider a.carousel-arrow:hover {
+    background-color: var(--e-global-color-cf12430);
+}
+
+.elementor-element#review-slider a.carousel-arrow svg {
+    min-width: 12px;
+}
+
+.elementor-element#review-slider .premium-carousel-template .e-con-full {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width:768px) {
+    .elementor-element#review-slider a.carousel-arrow {
+        top: -50px;
+        left:auto;
+        right: 10%;
+    }
+    
+    .elementor-element#review-slider a.carousel-arrow.carousel-prev {
+        left: auto;
+        right: calc(10% + 60px);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .elementor-element#review-slider .premium-carousel-template {
+        max-width: 45%;
+    }
+    
+    .elementor-element#review-slider .premium-carousel-template .e-con-full {
+        max-width: 99%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .elementor-element#review-slider a.carousel-arrow {
+        left: auto;
+    }
+
+    .elementor-element#review-slider a.carousel-arrow.carousel-prev {
+        right: calc(10% + 60px);
+    }
+
+	.elementor-element#review-slider .item-wrapper {
+		max-width: 32%;
+	}
+	
+	.elementor-element#review-slider .item-wrapper .e-con-full {
+		max-width: 96%;
+	}
+}
+
+/* ================================================ */
+/*			Single Location Slider                  */
+/* ================================================ */
+#single-location-slider .elementor-swiper-button {
+	background-color: var(--e-global-color-primary);
+	border-radius: 4px;
+	width: 42px;
+	height: 42px;
+	top: auto;
+	bottom: -90px;
+	left: 0;
+	z-index: 0;
+}
+
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-prev {
+	background: url(/wp-content/uploads/2024/05/left-arrow.svg) var(--e-global-color-primary) no-repeat center center;
+	background-size: 14px;
+	left: auto;
+	right: 80px;
+}
+
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-next {
+	background: url(/wp-content/uploads/2024/05/arrow.svg) var(--e-global-color-primary) no-repeat center center;
+	background-size: 14px;
+	left: auto;
+	right: 20px;
+}
+
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-next:hover,
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-prev:hover,
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-next:focus,
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-prev:focus {
+	background-color: var(--e-global-color-cf12430);
+}
+
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-prev svg,
+#single-location-slider .elementor-swiper-button.elementor-swiper-button-next svg {
+	display: none;
+}
+
+@media screen and (min-width:1024px) {
+	#single-location-slider .elementor-swiper-button.elementor-swiper-button-prev {	
+		right: auto;
+		left: 0;
+		z-index: 0;
+	}
+	
+	#single-location-slider .elementor-swiper-button.elementor-swiper-button-next {
+		right: auto;
+		left: 66px;
+		z-index: 0;
+	}
+}
+
+/* ================================================ */
+/*         Patient Review Video Slider              */
+/* ================================================ */
+
+.review-video-slider a.carousel-arrow {
+    top: auto;
+    bottom: -60px;
+    padding: 21px;
+}
+
+.review-video-slider a.carousel-arrow svg {
+    fill: #ffffff;
+    min-width: 12px;
+}
+
+.review-video-slider a.carousel-arrow:hover svg {
+    fill: var(--e-global-color-3eaa309);
+}
+
+.review-video-slider a.carousel-arrow.carousel-next {
+    right: 52px;
+}
+
+.review-video-slider a.carousel-arrow.carousel-prev {
+    left: auto;
+    right: 116px;
+}
+
+.elementor-element.two-column-appointment-cta {
+    max-width: calc(100% - 30px);
+}
+
+
+@media screen and (max-width:1024px) {
+    #menu-header-menu-1.premium-main-mobile-menu.premium-main-nav-menu {
+        width: calc( 100% - 3.0rem );
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    #menu-header-menu-1.premium-main-mobile-menu.premium-main-nav-menu > .premium-nav-menu-item > .premium-menu-link {
+        color: var(--e-global-color-accent);
+    }
+    
+    #menu-header-menu-1.premium-main-mobile-menu.premium-main-nav-menu > .premium-nav-menu-item.premium-active-menu .premium-sub-menu {
+        background-color: #fafafa;
+    }
+    
+    #menu-header-menu-1.premium-main-mobile-menu.premium-main-nav-menu > .premium-nav-menu-item .premium-sub-menu-item {
+        padding: 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #menu-header-menu-1.premium-main-mobile-menu.premium-main-nav-menu > .premium-nav-menu-item .premium-sub-menu-item .premium-sub-menu-link {
+        font-size: 14px;
+        line-height: 26px;
+    }    
+}
+
+@media screen and (min-width:1024px) {
+	.elementor-element.e-flex.appointment-green,
+	.elementor-element.location-cards {
+		width: 1400px;
+		max-width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.elementor-element.one-column-content .e-con-inner,
+	.elementor-element.two-column-content-image .e-con-inner,
+	.elementor-element.two-column-text-cta .e-con-inner,
+	.elementor-element.nav-breadcrumbs .e-con-inner,
+	.elementor-element.two-column-hero .e-con .e-con-inner,
+	.elementor-element.explore-our-locations .e-con .e-con-inner {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.e-con.e-con .e-con-inner .elementor-widget-text-editor,
+	.elementor-element.elementor-widget-text-editor {
+		max-width: 900px;
+	}
+	
+	.elementor-element.elementor-widget-accordion .elementor-accordion {
+	    max-width: 840px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+
+
+@media screen and (max-width:767px) {
+    .mobile-light-gray-bg {
+        background-color: var(--e-global-color-3eaa309);
+    }
+    
+    .mobile-white-bg {
+        background-color: #ffffff;
+    }
+
+    
+    .mobile-relative,
+    .elementor-element.elementor-absolute.mobile-relative {
+        position: relative;
+    }
+    
+    
+}
+
+
+
+
+
